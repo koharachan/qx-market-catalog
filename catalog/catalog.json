@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "name": "QxSSH App Market",
+  "updatedAt": "2026-09-26T13:53:53.690Z",
+  "apps": [
+    {
+      "id": "hello-app",
+      "name": "你好应用",
+      "description": "应用商店最小示例：按钮计数器（1.1.0 新增点击目标提示）",
+      "author": "QxSSH",
+      "icon": "batch",
+      "category": "工具",
+      "keywords": [
+        "hello",
+        "example",
+        "demo"
+      ],
+      "latest": "1.1.0",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "zip": "apps/hello-app/1.1.0.zip",
+          "sha256": "dbf0905219c462ff32bcc4faff006b1bf0d28ad7feba8822dcea9ab593186fa4",
+          "size": 1837,
+          "date": "2026-09-26",
+          "changelog": "新增点击目标提示：连点 10 次显示惊喜文案（验证更新提醒与自由换版）",
+          "minHost": "1.0.0"
+        },
+        {
+          "version": "1.0.0",
+          "zip": "apps/hello-app/1.0.0.zip",
+          "sha256": "d6dd87030113fa966513e9ecd67bc726c1476fed8ece392f69d9ad47c5ebd789",
+          "size": 1690,
+          "date": "2026-09-26",
+          "changelog": "首个上架版本：按钮计数器示例",
+          "minHost": "1.0.0"
+        }
+      ]
+    },
+    {
+      "id": "sysinfo-app",
+      "name": "系统信息",
+      "description": "示例应用：读取被控机硬件配置（1.1.0 新增页面版本标识）",
+      "author": "QxSSH",
+      "icon": "disk",
+      "category": "系统",
+      "keywords": [
+        "sysinfo",
+        "hardware",
+        "xitong",
+        "info"
+      ],
+      "latest": "1.1.0",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "zip": "apps/sysinfo-app/1.1.0.zip",
+          "sha256": "da1a8351f820b85135c70890850080402745de3727c20b1e66f373192c1c331b",
+          "size": 3657,
+          "date": "2026-09-26",
+          "changelog": "顶栏新增版本标识 v1.1.0（验证更新提醒与自由换版）",
+          "minHost": "1.0.0"
+        },
+        {
+          "version": "1.0.0",
+          "zip": "apps/sysinfo-app/1.0.0.zip",
+          "sha256": "f38516c6d314c1f7e3f6826022951ed989b0f8075d5d935cb5c499b0b6f4a4ed",
+          "size": 3645,
+          "date": "2026-09-26",
+          "changelog": "首个上架版本：读取被控机硬件配置（主机名/CPU/内存/磁盘）",
+          "minHost": "1.0.0"
+        }
+      ]
+    }
+  ]
+}
